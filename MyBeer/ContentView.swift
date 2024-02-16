@@ -8,17 +8,36 @@
 import SwiftUI
 
 struct ContentView: View {
+    let favoritesViewModel = FavoritesViewModel()
+    var beers: [Beer] = []
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        @State var activeTab: Tab = .beerList
+        
+        TabView(selection: $activeTab) {
+            BeerList()
+                .tag(Tab.beerList)
+                .tabItem { Tab.beerList.tabContent }
+            
+            Search()
+                .tag(Tab.search)
+                .tabItem { Tab.search.tabContent }
+            
+            Favoritos()
+                .tag(Tab.favoritos)
+                .tabItem { Tab.favoritos.tabContent }
+            
+            
         }
-        .padding()
+        .accentColor(Color.blue2)
+        .environmentObject(favoritesViewModel)
     }
+  
+      
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }

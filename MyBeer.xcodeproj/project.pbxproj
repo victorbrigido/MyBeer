@@ -11,6 +11,14 @@
 		1624AEE12B7D5E40003E4263 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1624AEE02B7D5E40003E4263 /* ContentView.swift */; };
 		1624AEE32B7D5E41003E4263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1624AEE22B7D5E41003E4263 /* Assets.xcassets */; };
 		1624AEE62B7D5E41003E4263 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1624AEE52B7D5E41003E4263 /* Preview Assets.xcassets */; };
+		1624AEEE2B7D60E1003E4263 /* BeerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1624AEED2B7D60E1003E4263 /* BeerList.swift */; };
+		1624AEF12B7D6183003E4263 /* BeerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1624AEF02B7D6183003E4263 /* BeerModel.swift */; };
+		1624AEF32B7D670B003E4263 /* BeerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1624AEF22B7D670B003E4263 /* BeerCard.swift */; };
+		1624AEF62B7D78BB003E4263 /* BeerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1624AEF52B7D78BB003E4263 /* BeerDetails.swift */; };
+		16A4C6FD2B7E4D8D00DD2260 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A4C6FC2B7E4D8D00DD2260 /* Tab.swift */; };
+		16A4C6FF2B7E4DF900DD2260 /* Favoritos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A4C6FE2B7E4DF900DD2260 /* Favoritos.swift */; };
+		16A4C7012B7E4E0A00DD2260 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A4C7002B7E4E0A00DD2260 /* Search.swift */; };
+		16A4C7032B7E511200DD2260 /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A4C7022B7E511200DD2260 /* FavoritesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,15 @@
 		1624AEE02B7D5E40003E4263 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1624AEE22B7D5E41003E4263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1624AEE52B7D5E41003E4263 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1624AEED2B7D60E1003E4263 /* BeerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerList.swift; sourceTree = "<group>"; };
+		1624AEF02B7D6183003E4263 /* BeerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerModel.swift; sourceTree = "<group>"; };
+		1624AEF22B7D670B003E4263 /* BeerCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerCard.swift; sourceTree = "<group>"; };
+		1624AEF42B7D6B27003E4263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1624AEF52B7D78BB003E4263 /* BeerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDetails.swift; sourceTree = "<group>"; };
+		16A4C6FC2B7E4D8D00DD2260 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		16A4C6FE2B7E4DF900DD2260 /* Favoritos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favoritos.swift; sourceTree = "<group>"; };
+		16A4C7002B7E4E0A00DD2260 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		16A4C7022B7E511200DD2260 /* FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +68,9 @@
 		1624AEDD2B7D5E40003E4263 /* MyBeer */ = {
 			isa = PBXGroup;
 			children = (
+				1624AEF42B7D6B27003E4263 /* Info.plist */,
+				1624AEEF2B7D614D003E4263 /* Model */,
+				1624AEEC2B7D60BC003E4263 /* Views */,
 				1624AEDE2B7D5E40003E4263 /* MyBeerApp.swift */,
 				1624AEE02B7D5E40003E4263 /* ContentView.swift */,
 				1624AEE22B7D5E41003E4263 /* Assets.xcassets */,
@@ -65,6 +85,28 @@
 				1624AEE52B7D5E41003E4263 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1624AEEC2B7D60BC003E4263 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1624AEED2B7D60E1003E4263 /* BeerList.swift */,
+				1624AEF52B7D78BB003E4263 /* BeerDetails.swift */,
+				16A4C6FE2B7E4DF900DD2260 /* Favoritos.swift */,
+				16A4C7002B7E4E0A00DD2260 /* Search.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1624AEEF2B7D614D003E4263 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1624AEF02B7D6183003E4263 /* BeerModel.swift */,
+				1624AEF22B7D670B003E4263 /* BeerCard.swift */,
+				16A4C6FC2B7E4D8D00DD2260 /* Tab.swift */,
+				16A4C7022B7E511200DD2260 /* FavoritesViewModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +179,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1624AEF32B7D670B003E4263 /* BeerCard.swift in Sources */,
+				16A4C7032B7E511200DD2260 /* FavoritesViewModel.swift in Sources */,
 				1624AEE12B7D5E40003E4263 /* ContentView.swift in Sources */,
+				16A4C6FD2B7E4D8D00DD2260 /* Tab.swift in Sources */,
+				16A4C6FF2B7E4DF900DD2260 /* Favoritos.swift in Sources */,
 				1624AEDF2B7D5E40003E4263 /* MyBeerApp.swift in Sources */,
+				1624AEEE2B7D60E1003E4263 /* BeerList.swift in Sources */,
+				16A4C7012B7E4E0A00DD2260 /* Search.swift in Sources */,
+				1624AEF12B7D6183003E4263 /* BeerModel.swift in Sources */,
+				1624AEF62B7D78BB003E4263 /* BeerDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +325,7 @@
 				DEVELOPMENT_TEAM = X25GMKM57Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyBeer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +355,7 @@
 				DEVELOPMENT_TEAM = X25GMKM57Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyBeer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
