@@ -15,9 +15,17 @@ https://www.punkapi.com/documentation/v2
 Utilizar preferencialmente uma arquitetura clean;
 
 Bônus
+
+
 Implementar o app para todos os devices (iPhones e iPads) usando auto-layout;
+
+
 Implementar caching das imagens;
+
+
 Implementar botão de favoritar cerveja (guardar dados localmente) e listar as cervejas favoritas;
+
+
 
 <img width="1440" alt="Captura de Tela 2024-02-16 às 20 45 08" src="https://github.com/victorbrigido/MyBeer/assets/110338761/9997423d-5ecc-476c-a23b-a851718706b6">
 
