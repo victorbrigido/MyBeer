@@ -7,7 +7,11 @@ Desenvolver um App em Swift que consulte uma API e exiba uma lista de cervejas. 
 
 Requisitos
 Utilizar como exemplo a API abaixo ou similares:
-https://www.punkapi.com/documentation/v2;
+
+
+https://www.punkapi.com/documentation/v2
+
+
 Utilizar preferencialmente uma arquitetura clean;
 
 Bônus
